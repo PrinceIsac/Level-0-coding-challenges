@@ -1,11 +1,11 @@
 function covertTemperature(tempCelsius){
-    fahrenheit = tempCelsius * 33.8;
+    fahrenheit = tempCelsius * (9/5) + 32;
 
     return fahrenheit;
 }
 
 function fahrenToCelsius(tempFahrenheit){
-    celsius = tempFahrenheit / 33.8;
+    celsius = (tempFahrenheit - 32) * 5/9;
 
     return fahrenheit;
 }
