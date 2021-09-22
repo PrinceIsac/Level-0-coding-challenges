@@ -7,6 +7,6 @@ function covertTemperature(tempCelsius){
 function fahrenToCelsius(tempFahrenheit){
     celsius = (tempFahrenheit - 32) * 5/9;
 
-    return fahrenheit;
+    return celsius;
 }
 
